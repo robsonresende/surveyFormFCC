@@ -1,0 +1,71 @@
+/* Arquivo CSS do Formulário de Pesquisa Free Code Camp */
+
+body {
+	background-image: url("../img/workplace-1920.jpg");
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+	background-attachment: fixed;
+	color: #ffffff;
+
+}
+
+fieldset {
+	background-color: rgba(42,42,73,0.7);
+
+}
+
+#myCanvas {
+	display: flex;
+    margin: -2em -2em;
+    width: 120%;
+    height: 120%;
+    position: fixed;
+    background-color: rgba(0,0,150,0.5);
+    z-index: -1;
+
+}
+
+#title {
+	padding-top: 2em;
+	
+}
+
+#description {
+	font-style: italic;
+	
+}
+
+#name {
+	width: 90%;
+}
+
+#email {
+	width: 90%;
+}
+
+#comment {
+	width: 90%;
+}
+#main {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	text-align: center;
+}
+
+#field {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	padding-top: 2em;
+	border-radius: 10px;
+}
+
+#survey-form {
+	padding-bottom: 3em;
+
+}
+
